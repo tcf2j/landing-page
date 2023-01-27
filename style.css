@@ -12,10 +12,9 @@
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    flex: 1;
-  }
-  
+    
 
+  }
 
   img {
     width: 600px;
@@ -45,11 +44,16 @@
   ul {
     font-size: 18px;
     color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 6px;
+    
   }
 
   button {
     font-family: Roboto, sans-serif;
     background: #3882F6;
+    color: white;
   }
 
   .section3 {
@@ -74,4 +78,15 @@
 
   .stamp {
     color: white;
+  }
+
+  .container0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 80px;
+    
   }
