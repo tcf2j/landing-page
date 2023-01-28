@@ -17,7 +17,8 @@
   }
 
   img {
-    width: 600px;
+    width: 300px;
+    
   }
 
   .headersection,
@@ -51,6 +52,8 @@
   }
 
   button {
+    border-radius: 15px;
+    width: 80px;
     font-family: Roboto, sans-serif;
     background: #3882F6;
     color: white;
@@ -58,6 +61,14 @@
 
   .section3 {
     background-color: #3882F6;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    margin: 35px;
+
   }
 
   .Sec1Title {
@@ -68,6 +79,11 @@
 
   .section2 {
     background-color: #E2E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 90px;
   }
 
   .quotetxt {
@@ -89,4 +105,70 @@
     padding-right: 26px;
     padding-bottom: 80px;
     
+  }
+
+  .container1 {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .container2 {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 16px;
+    gap: 10px;
+    
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .imggroup0 img,
+  .imggroup1 img,
+  .imggroup2 img,
+  .imggroup3 img {
+    border: solid teal;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .imggroup0,
+  .imggroup1,
+  .imggroup2,
+  .imggroup3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
